@@ -9,6 +9,7 @@
 
 .badge {
   color: hsl(0, 0%, 98%);
+  font-family: 'Josefin Sans';
   background-color: var(--color-main);
   border-radius: 9999px;
   padding: 8px 16px;
