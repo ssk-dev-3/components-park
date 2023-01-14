@@ -1,7 +1,7 @@
-import { Card } from '../card';
+import Card from '../card';
 import galleryStyle from './gallery.module.css';
 
-export const Gallery: React.FC = () => {
+const Gallery: React.FC = () => {
   return (
     <div className={galleryStyle.container}>
       <div className={galleryStyle.board}>
@@ -14,3 +14,5 @@ export const Gallery: React.FC = () => {
     </div>
   );
 }
+
+export default Gallery;

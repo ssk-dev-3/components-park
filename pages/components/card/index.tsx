@@ -1,11 +1,10 @@
-import { Children } from 'react';
 import cardStyle from './card.module.css';
 
 type Props = {
   category: string
 }
 
-export const Card: React.FC<Props> = ({ category } ) => {
+const Card: React.FC<Props> = ({ category } ) => {
   return (
     <div className={cardStyle.card}>
       <div>
@@ -19,3 +18,5 @@ export const Card: React.FC<Props> = ({ category } ) => {
     </div>
   );
 }
+
+export default Card;
