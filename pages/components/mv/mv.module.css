@@ -1,0 +1,14 @@
+.mv {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 560px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 5rem;
+  font-family: 'Josefin Sans';
+  letter-spacing: 0.005px;
+}

@@ -1,0 +1,9 @@
+.fotter {
+  background-color: var(--base-color-2);
+}
+
+.copyright {
+  color: var(--color-text);
+  text-align: center;
+  padding: 2.5rem;
+}
