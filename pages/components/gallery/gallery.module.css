@@ -4,10 +4,17 @@
 }
 
 .board {
-  width: 1000px;
   display: grid;
   gap: 80px;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
+  grid-template-columns: 280px 280px 280px;
+  place-content: center;
+  place-items: center;
   transform: translateY(-60px);
+}
+
+@media screen and (max-width: 1024px) {
+  .board {
+    gap: 60px;
+    grid-template-columns: 1fr;
+  }
 }

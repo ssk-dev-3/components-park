@@ -8,3 +8,9 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .copyright {
+    padding: 1.5rem;
+  }
+}
