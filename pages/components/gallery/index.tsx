@@ -1,5 +1,6 @@
 import Card from '../card';
 import Button001 from '../items/button001';
+import Loader001 from '../items/loader001';
 import galleryStyle from './gallery.module.css';
 
 const Gallery: React.FC = () => {
@@ -9,8 +10,8 @@ const Gallery: React.FC = () => {
         <Card category='button'>
           <Button001 />
         </Card>
-        <Card category='button'>
-          ここにコンポーネントが入ります。
+        <Card category='loader'>
+          <Loader001 />
         </Card>
         <Card category='button'>
           ここにコンポーネントが入ります。
