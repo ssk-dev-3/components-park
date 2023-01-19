@@ -1,4 +1,7 @@
 .card {
+  position: relative;
+  display: grid;
+  place-items: center;
   width: 280px;
   height: 280px;
   background-color: hsl(0, 0%, 98%);
@@ -7,11 +10,17 @@
   padding: 1rem;
 }
 
+.badgeWrapper {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
 .badge {
   color: hsl(0, 0%, 98%);
   font-family: 'Josefin Sans';
   text-transform: capitalize;
   background-color: var(--color-main);
   border-radius: 9999px;
-  padding: 8px 16px;
+  padding: 0.5em 1em;
 }
