@@ -1,0 +1,7 @@
+.bg {
+  width: 160px;
+  height: 160px;
+  background-color: transparent;
+  background-image: radial-gradient(hsl(26, 100%, 56%) 30%, transparent 30%);
+  background-size: 20px 20px;
+}
