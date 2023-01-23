@@ -1,9 +1,12 @@
-import mvStyles from './mv.module.css'
+import mvStyle from './mv.module.css'
 
 const Mv: React.FC = () => {
   return (
-    <div className={mvStyles.mv}>
-      <h1 className={mvStyles.title}>Components Park</h1>
+    <div className={mvStyle.mv}>
+      <div className={mvStyle.titleWrapper}>
+        <h1 className={mvStyle.title}>Components Park</h1>
+        <p className={mvStyle.subtitle}>HTMLとCSSとJavaScriptの遊び場</p>
+      </div>
     </div>
   )
 }

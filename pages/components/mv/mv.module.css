@@ -6,11 +6,23 @@
   background-color: hsl(0, 0%, 100%);
 }
 
-.title {
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
   color: var(--color-text);
-  font-size: clamp(2.5rem, 9vw, 5rem);
   font-family: 'Josefin Sans';
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2rem, 9vw, 5rem);
   letter-spacing: 0.005px;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  letter-spacing: 0.1px;
 }
 
 @media screen and (max-width: 1024px) {
