@@ -3,6 +3,7 @@ import Button001 from '../items/button001';
 import Loader001 from '../items/loader001';
 import Loader002 from '../items/loader002';
 import Background001 from '../items/background001';
+import Card001 from '../items/card001';
 import galleryStyle from './gallery.module.css';
 
 const Gallery: React.FC = () => {
@@ -20,6 +21,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='loader'>
           <Loader002 />
+        </Card>
+        <Card category='card'>
+          <Card001 />
         </Card>
       </div>
     </div>

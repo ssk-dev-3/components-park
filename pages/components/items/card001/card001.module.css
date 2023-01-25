@@ -1,0 +1,21 @@
+.card {
+  display: grid;
+  place-items: center;
+  width: 100px;
+  height: 130px;
+  color: hsl(0, 0%, 98%);
+  font-weight: bold;
+  background-color: hsl(0, 51%, 75%);
+  box-shadow: 10px 5px 4px rgb(212, 212, 212);
+  border-radius: 8px;
+  transition: 0.2s linear;
+  transform: skew(-10deg, -5deg) rotate(20deg);
+  cursor: pointer;
+}
+
+.card:hover {
+  height: 150px;
+  box-shadow: 3px 5px 4px rgb(212, 212, 212);
+  transform: rotate(0deg);
+  transform-origin: bottom left;
+}
