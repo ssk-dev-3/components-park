@@ -1,0 +1,12 @@
+.checkerboard {
+  width: 160px;
+  height: 160px;
+  background: conic-gradient(
+      #fff 90deg,
+      hsl(0, 97%, 77%) 90deg 180deg,
+      #fff 180deg 270deg,
+      hsl(0, 97%, 77%) 270deg
+    )
+    top left / 25% 25% repeat;
+  border: 1px solid hsl(0, 97%, 77%);
+}
