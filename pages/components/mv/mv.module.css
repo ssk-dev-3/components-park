@@ -11,7 +11,6 @@
   flex-direction: column;
   row-gap: 0.5rem;
   color: var(--color-text);
-  font-family: 'Josefin Sans';
   text-align: center;
 }
 
