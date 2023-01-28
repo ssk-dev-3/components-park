@@ -5,6 +5,7 @@ import Loader002 from '../items/loader002';
 import Background001 from '../items/background001';
 import Background002 from '../items/background002';
 import Card001 from '../items/card001';
+import Card002 from '../items/card002';
 import galleryStyle from './gallery.module.css';
 
 const Gallery: React.FC = () => {
@@ -28,6 +29,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='background'>
           <Background002 />
+        </Card>
+        <Card category='card'>
+          <Card002 />
         </Card>
       </div>
     </div>
