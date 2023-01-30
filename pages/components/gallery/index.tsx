@@ -37,6 +37,9 @@ const Gallery: React.FC = () => {
         <Card category='button'>
           <Button002 />
         </Card>
+        <Card category='loader'>
+          <Loader003 />
+        </Card>
       </div>
     </div>
   );
