@@ -4,6 +4,7 @@ import Button002 from '../items/button002';
 import Loader001 from '../items/loader001';
 import Loader002 from '../items/loader002';
 import Loader003 from '../items/loader003';
+import Loader004 from '../items/loader004';
 import Background001 from '../items/background001';
 import Background002 from '../items/background002';
 import Card001 from '../items/card001';
@@ -40,6 +41,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='loader'>
           <Loader003 />
+        </Card>
+        <Card category='loader'>
+          <Loader004 />
         </Card>
       </div>
     </div>
