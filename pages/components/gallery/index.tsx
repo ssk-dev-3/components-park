@@ -14,6 +14,7 @@ import Background001 from '../items/background001';
 import Background002 from '../items/background002';
 import Card001 from '../items/card001';
 import Card002 from '../items/card002';
+import Card003 from '../items/card003';
 import galleryStyle from './gallery.module.css';
 
 const Gallery: React.FC = () => {
@@ -64,6 +65,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='loader'>
           <Loader005 />
+        </Card>
+        <Card category='card'>
+          <Card003 />
         </Card>
       </div>
     </div>
