@@ -14,7 +14,7 @@ const Card: React.FC<Props> = ({ category, children } ) => {
           {category}
         </span>
       </div>
-      <div>
+      <div className={cardStyle.content}>
         {children}
       </div>
     </div>
