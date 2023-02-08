@@ -1,0 +1,50 @@
+.wrapper {
+  position: relative;
+}
+
+.input {
+  display: block;
+  width: 200px;
+  color: var(--color-text);
+  font-size: 1.2rem;
+  padding: 10px 10px 5px 5px;
+  border: none;
+  border-bottom: 2px solid hsl(0, 0%, 34%);
+  background-color: transparent;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 5px;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.labelChar {
+  transition: all .2s ease;
+}
+
+.labelChar:nth-of-type(2) {
+  transition-delay: .05s;
+}
+
+.labelChar:nth-of-type(3) {
+  transition-delay: .1s;
+}
+
+.labelChar:nth-of-type(4) {
+  transition-delay: .15s;
+}
+
+.input:focus ~ .label .labelChar,
+.input:valid ~ .label .labelChar {
+  transform: translateY(-20px);
+  font-size: .8em;
+  color: hsl(0, 71%, 75%);
+}
