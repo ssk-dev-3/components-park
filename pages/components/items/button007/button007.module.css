@@ -1,0 +1,55 @@
+.button {
+  position: relative;
+  display: inline-block;
+  width: 12rem;
+  height: auto;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
+
+.circle {
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: hsl(0, 71%, 75%);
+  border-radius: 1.5rem;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.76, 1);
+}
+
+.circle::before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  inset: 0 auto 0 1rem;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid hsl(0, 0%, 98%);
+  border-right: 3px solid hsl(0, 0%, 98%);
+  transform: rotate(45deg);
+}
+
+.button:hover .circle {
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 56px;
+  transform: translateY(-50%);
+  color: var(--color-text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0 0;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.button:hover .text {
+  color: hsl(0, 0%, 98%);
+}
