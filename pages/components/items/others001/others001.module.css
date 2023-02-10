@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 10px;
+  width: 160px;
+  height: 160px;
+  padding: 1rem;
+  background-color: var(--base-color-1);
+  border: 2px solid hsl(0, 71%, 75%);
+  border-radius: .5rem;
+}
+
+.container .item {
+  display: grid;
+  place-items: center;
+  scroll-snap-align: start;
+  flex: 0 0 100%;
+  color: hsl(0, 0%, 98%);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  text-transform: uppercase;
+  background-color: hsl(0, 71%, 75%);
+  border-radius: .2rem;
+}
