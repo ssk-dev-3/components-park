@@ -1,0 +1,49 @@
+.loader {
+  width: 80px;
+  height: 80px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px hsl(0, 71%, 75%);
+  overflow: hidden;
+}
+
+.wave {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: hsl(0, 100%, 80%);
+  box-shadow: inset 0 0 50px hsl(0, 0%, 0%, .3);
+}
+
+.wave::before,
+.wave::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+}
+
+.wave::before {
+  border-radius: 45%;
+  background: hsl(0, 0%, 98%);
+  animation: wave 5s linear infinite;
+}
+
+.wave::after {
+  border-radius: 40%;
+  background: hsl(0, 0%, 98%, .5);
+  animation: wave 10s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}

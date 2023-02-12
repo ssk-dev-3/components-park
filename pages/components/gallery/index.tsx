@@ -12,6 +12,7 @@ import Loader003 from '../items/loader003';
 import Loader004 from '../items/loader004';
 import Loader005 from '../items/loader005';
 import Loader006 from '../items/loader006';
+import Loader007 from '../items/loader007';
 import Background001 from '../items/background001';
 import Background002 from '../items/background002';
 import Card001 from '../items/card001';
@@ -84,6 +85,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='loader'>
           <Loader006 />
+        </Card>
+        <Card category='loader'>
+          <Loader007 />
         </Card>
       </div>
     </div>
