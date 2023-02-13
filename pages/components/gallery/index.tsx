@@ -19,6 +19,7 @@ import Card001 from '../items/card001';
 import Card002 from '../items/card002';
 import Card003 from '../items/card003';
 import TextBox001 from '../items/textbox001';
+import Checkbox001 from '../items/checkbox001';
 import Others001 from '../items/others001';
 import galleryStyle from './gallery.module.css';
 
@@ -88,6 +89,9 @@ const Gallery: React.FC = () => {
         </Card>
         <Card category='loader'>
           <Loader007 />
+        </Card>
+        <Card category='checkbox'>
+          <Checkbox001 />
         </Card>
       </div>
     </div>
